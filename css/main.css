@@ -1,0 +1,632 @@
+/*--------------Font connection-------------------*/
+@font-face {
+    font-family: 'Natasha';
+    src: url(../fonts/Natasha.eot);
+    src: url(../fonts/Natasha.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Natasha.woff2) format('woff2'),
+        url(../fonts/Natasha.woff) format('woff'),
+        url(../fonts/Natasha.ttf) format('truetype'),
+        url(../fonts/Natasha.svg#Natasha) format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans 900';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo Sans 300';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+}
+
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('../fonts/MuseoSansCyrl-100.eot');
+    src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+}
+
+/*----------------Specification----------------------*/
+
+body {
+    font-family: Museo Sans 300, sans-serif;
+    color: ##22241b;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Museo Sans 300';
+    margin: 0;
+    font-size: 15px;
+    color: #22241b;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    line-height: 1.122;
+    font-family: 'Natasha';
+}
+
+h1 {
+    font-size: 49px;
+    margin: 283px 0 18px;
+}
+
+h2 {
+    font-family: 'Natasha';
+    font-size: 37px;
+    background: ##fff;
+    color: #22241b;
+}
+
+h3 {
+    font-family: 'Natasha';
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #22241b;
+    opacity: .66;
+    margin-bottom: 41px;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+
+/*-------------Header----------------*/
+
+.header {
+    background: #1b1d12 url(../img/bg.jpg) no-repeat center top / cover;
+    padding: 57px 0 82px;
+    color: #fff;
+}
+
+.nav {
+    letter-spacing: 0.12em;
+}
+
+.logo {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.logo__my {
+    font-family: 'Museo Sans 100', sans-serif;
+}
+
+.logo__portfolio {
+    font-family: 'Museo Sans 900', sans-serif;
+    margin-left: -6px;
+}
+
+.menu {
+    font-family: 'Museo Sans 900', sans-serif;
+}
+
+.menu__list {
+    list-style: none;
+}
+
+.menu__link {
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 46px;
+}
+
+.nav__mail {
+    font-family: 'Museo Sans 300';
+    font-size: 13px;
+    color: #fff;
+    border-bottom: 1px solid;
+}
+
+.main {
+    text-align: center;
+}
+
+.main__text {
+    font-family: 'Museo Sans 100';
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header__arrow {
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 7px 8px 10px;
+    margin-top: 263px;
+}
+
+/*-------------First section----------------*/
+
+.me__title {
+    margin: 82px 0 75px;
+}
+
+.bg {
+    width: 425px;
+}
+
+.bg__text {
+    font-family: 'Museo Sans 300';
+    margin-bottom: 30px;
+    line-height: 1.8em;
+}
+
+.service {
+    width: 467px;
+}
+
+.merits {
+    width: 424px;
+}
+
+.merits__elements {
+    justify-content: space-around;
+}
+
+.merits__rhombus {
+    flex-direction: column;
+}
+
+.merits__digits {
+    width: 72px;
+    height: 72px;
+    color: #204d15;
+    border: 1px solid #204d15;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: 22px;
+}
+
+.merits__digits:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #c6d6bb;
+    left: 6px;
+    top: 6px;
+}
+
+.merits__number {
+    font-family: 'Museo Sans 100';
+    font-size: 20px;
+    color: #204d15;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.merits__text {
+    font-family: 'Museo Sans 100';
+    font-size: 12px;
+    color: #22241b;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 43px;
+    width: 112px;
+}
+
+.merits__text_exp {
+    flex-direction: column;
+}
+
+.com__title {
+    margin: 64px 0 36px;
+}
+
+.com__contacts {
+    width: 170px;
+}
+
+.com__link {
+    font-family: 'Museo Sans 300';
+    font-size: 13px;
+    color: #204d15;
+    border-bottom: 1px solid #becbbb;
+    display: table;
+    margin-bottom: 14px;
+    letter-spacing: 1.68px;
+}
+
+.com__icon {
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
+    background: #eef1ed;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    color: #204d15;
+    font-size: 25px;
+    padding: 19px 0 21px;
+    margin: 0 20px 0 42px;
+}
+
+.com__text {
+    font-family: 'Museo Sans 300';
+    font-size: 14px;
+    color: #22241b;
+    opacity: .72;
+}
+
+/*-------------Second section----------------*/
+
+.skills__title {
+    margin: 54px 0 56px;
+}
+
+.stat {
+    justify-content: space-between;
+}
+
+.stat__circle {
+    width: 202px;
+}
+
+.stat__percent {
+    margin-right: 27px;
+    font-family: 'Museo Sans 100';
+    width: 61px;
+    height: 61px;
+    font-size: 13px;
+    color: #204d15;
+    border: 1px solid #204d15;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat__percent:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    border: 1px solid #adb2ac;
+    border-radius: 50%;
+    left: 5px;
+    top: 5px;
+}
+
+.stat__text {
+    font-family: 'Museo Sans 900';
+    font-size: 15px;
+    color: #22241b;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+/*-------------Third section----------------*/
+
+.works__title {
+    margin: 75px 0 54px;
+}
+
+.foto__item {
+    width: 300px;
+    position: relative;
+}
+
+.foto__img {
+    width: 100%;
+    display: block;
+}
+
+.foto__item:hover .foto__overlay {
+    opacity: 1;
+}
+
+.foto__overlay {
+    background: rgba(0, 0, 0, 0.56);
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    opacity: 0;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Museo Sans 900';
+    font-size: 15px;
+
+}
+
+.foto__link {
+    font-family: 'Museo Sans 300';
+    font-size: 13px;
+    color: #fff;
+    text-transform: none;
+    cursor: pointer;
+    border-bottom: 1px solid #828486;
+}
+
+/*-------------Footer----------------*/
+
+.footer__future {
+    font-family: 'Museo Sans 300';
+    font-size: 11px;
+    opacity: .66;
+    color: #22241b;
+    text-transform: uppercase;
+    margin: 120px 0 107px;
+    letter-spacing: 0.14em;
+}
+
+/*---------------Media requests-----------------*/
+
+/*992-1200px*/
+@media screen and (max-width: 1200px) {}
+
+/*768-992px*/
+@media screen and (max-width: 992px) {
+    .container {
+        width: 700px;
+    }
+
+    .offer {
+        flex-direction: column;
+    }
+
+    .bg {
+        width: 100%;
+    }
+
+    .service {
+        width: auto;
+    }
+
+    .merits {
+        width: auto;
+    }
+
+    .stat__text {
+        margin: 0 15px 0 -15px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .foto__item {
+        width: 30%;
+    }
+}
+
+/*576-768px*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 40px;
+    }
+
+    .menu {
+        margin-bottom: 20px;
+    }
+
+    .menu__link {
+        margin-right: 10px;
+    }
+
+    .offer {
+        flex-direction: column;
+    }
+
+    .bg {
+        width: 100%;
+    }
+
+    .merits__elements {
+        width: 100%;
+    }
+
+    .stat {
+        flex-wrap: wrap;
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    .stat__circle {
+        margin-bottom: 40px;
+    }
+}
+
+/*320-576px*/
+@media screen and (max-width: 576px) {
+    .container {
+        width: 90%;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 30px;
+    }
+
+    .menu {
+        margin-bottom: 10px;
+    }
+
+    .main__title {
+        font-size: 40px;
+        margin-top: 180px;
+    }
+
+    .main__text {
+        font-size: 22px;
+    }
+
+    .header__arrow {
+        margin-top: 180px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .merits {
+        width: 100%;
+    }
+
+    .merits__elements {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .com {
+        width: 100%;
+    }
+
+    .com__box {
+        flex-direction: column;
+    }
+
+    .merits__rhombus {
+        margin-bottom: 30px;
+    }
+
+    .merits__text {
+        margin-top: 33px;
+    }
+
+    .com__contacts {
+        margin-bottom: 20px;
+    }
+
+    .com__text {
+        margin-top: 15px;
+    }
+
+    .stat {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .foto {
+        flex-direction: column;
+    }
+
+    .foto__item {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 20px;
+    }
+
+}
