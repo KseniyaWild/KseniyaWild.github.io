@@ -1,0 +1,925 @@
+/*Connecting fonts*/
+@font-face {
+    font-family: 'Museo Sans Cyrl 500';
+    src: url('../fonts/MuseoSansCyrl-500.eot');
+    src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 700';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl 900';
+    src: url('../fonts/MuseoSansCyrl-900.eot');
+    src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*Specification*/
+body {
+    font-family: 'Museo Sans Cyrl 700';
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+header,
+div,
+p,
+form,
+input,
+a,
+span,
+button {
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+h2 {
+    font-size: 42px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 26px;
+}
+
+h4 {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 29px;
+}
+
+h5 {}
+
+p {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+a,
+button,
+input {
+    transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+    outline: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {}
+
+.container-fluid_plain {
+    padding: 0;
+}
+
+.btn {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 23px;
+    width: 180px;
+    font-weight: 600;
+    border-radius: 30px;
+    color: #fff;
+    padding: 12px 0 11px;
+    text-transform: uppercase;
+}
+
+
+
+/*---------------Header---------------*/
+.header {
+    padding: 20px 0 132px 0;
+    position: relative;
+}
+
+.menu {
+    text-align: right;
+    padding: 15px 0;
+}
+
+.menu__link {
+    width: 30px;
+    height: 30px;
+    font-size: 32px;
+    color: #000;
+}
+
+.menu__link:hover {
+    color: #000;
+}
+
+.curve {
+    background: url(../img/line.png) no-repeat;
+    width: 132px;
+    height: 12px;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: 2;
+}
+
+.down {
+    margin-top: 28px;
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.main__subtitle {
+    width: 152px;
+    margin-bottom: 23px;
+}
+
+.main__title {
+    width: 602px;
+}
+
+.main__link {}
+
+.main__link {
+    background: #fd295a;
+    margin-top: 25px;
+}
+
+.main__link:hover {
+    color: #fff;
+    background: #00cfc3;
+    transition: all 0.5s ease-in-out;
+}
+
+.block-img {
+    position: relative;
+}
+
+.small-img {
+    background: url(../img/circle.png) no-repeat;
+    width: 47px;
+    height: 44px;
+    position: absolute;
+    right: 87px;
+    top: 0;
+    z-index: 2;
+}
+
+.big-img {
+    background: url(../img/main.png) no-repeat;
+    width: 520px;
+    height: 640px;
+    position: absolute;
+    left: 50px;
+}
+
+.points {
+    background: url(../img/point.png) no-repeat;
+    width: 132px;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    z-index: 2;
+}
+
+/*---------------Whom---------------*/
+
+.whom {
+    background: #000;
+    padding: 50px 0;
+}
+
+
+.whom__title {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 42px;
+    line-height: 1.40;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 79px;
+}
+
+.whom__title-small {
+    font-size: 29px;
+}
+
+.whom__title-big {
+    text-transform: uppercase;
+}
+
+.advantage {
+    display: flex;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.advantage__img {
+    width: 100px;
+}
+
+.advantage__text {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 19px;
+    width: 300px;
+    line-height: 1.55;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.advantage__text span {
+    text-transform: uppercase;
+}
+
+/*---------------Course---------------*/
+
+.course {
+    padding: 90px 0;
+}
+
+.course__title {
+    font-family: 'Museo Sans Cyrl 900';
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.block {
+    border-left: 2px solid #00cfc3;
+    padding-left: 80px;
+}
+
+.block:before {
+    /* content: '';
+    display: block; */
+}
+
+.block__list {
+    margin-bottom: 110px;
+}
+
+.block__cross {
+    background: url(../img/cross.png) no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: -21px;
+    left: -11px;
+    z-index: 2;
+}
+
+.block__list li {
+	width: 312px;
+}
+
+.block__title {}
+
+.block__item {
+    font-size: 18px;
+    line-height: 1.55;
+}
+
+.course__btn {
+    background: #00cfc3;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.course__btn:hover {
+    color: #fff;
+    background: #fd295a;
+    transition: all 0.5s ease-in-out;
+}
+
+/*---------------Teachers---------------*/
+
+.teachers {
+    background: #000;
+    padding-top: 70px;
+    position: relative;
+}
+
+/*---------------Parallax---------------*/
+
+.teacher__parallax-bg1 {
+    background: url(../img/Group_8_2.png) no-repeat;
+    width: 116px;
+    height: 135px;
+    position: absolute;
+    top: 0;
+    margin-top: 250px;
+    left: 80px;
+    z-index: 2;
+}
+
+.teacher__parallax-bg2 {
+    background: url(../img/Group_7.png) no-repeat;
+    width: 80px;
+    height: 121px;
+    position: absolute;
+    top: 137px;
+    left: -80px;
+    margin-top: 330px;
+    z-index: 2;
+}
+
+.parallax__img_up {}
+
+.parallax__img_down {}
+
+.teachers__title {
+    font-family: 'Museo Sans Cyrl 900';
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 107px;
+}
+
+.teachers__block {}
+
+.teachers__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 77px;
+}
+
+.teachers__ico {
+    width: 205px;
+}
+
+.teachers__img {
+    border-radius: 50%;
+}
+
+.teachers__img_mint {
+    border: 3px solid #00cfc3;
+}
+
+.teachers__img_pink {
+    border: 3px solid #fd295a;
+}
+
+.teachers__wrap {
+    margin-left: 48px;
+}
+
+.teachers__name {
+    margin-bottom: 18px;
+    color: #fff;
+}
+
+.teachers__text {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 19px;
+    width: 419px;
+    line-height: 1.55;
+    color: #fff;
+}
+
+/*---------------Chance---------------*/
+
+.chance {
+    background: #fd295a;
+    padding: 100px 0;
+}
+
+.chance__subtitle {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 51px;
+    width: 848px;
+    color: #fff;
+    line-height: 1.35;
+    text-transform: uppercase;
+    margin: 0 auto 75px;
+}
+
+.form__wrap {
+    display: flex;
+}
+
+.form__input {
+    font-family: 'Museo Sans Cyrl 500';
+    display: block;
+    border: none;
+    width: 262px;
+    padding: 25px 23px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #6a7070;
+    text-transform: uppercase;
+}
+
+.form__btn {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 15px;
+    width: 280px;
+    background: #00cfc3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 13px 11px;
+    text-transform: uppercase;
+}
+
+/*---------------Footer---------------*/
+
+.footer {
+    padding: 50px 0;
+    background: #000;
+}
+
+.footer p {
+    font-family: 'Museo Sans Cyrl 700';
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__questions {
+    width: 300px;
+}
+
+.footer__knowledge {
+    text-transform: uppercase;
+}
+
+.footer__knowledge span {
+    color: #00cfc3;
+}
+
+.link-down {
+    color: #00cfc3;
+}
+
+.link-down:hover {
+    color: #00cfc3;
+}
+
+/*---------------Modal window---------------*/
+
+.box-modal {
+    position: relative;
+    padding: 16px;
+    background: #fff;
+    color: #3c3c3c;
+    font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    border-radius: 6px;
+}
+
+.box-modal_close {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+    cursor: pointer;
+}
+
+.box-modal_close:hover {
+    color: #666;
+}
+
+.form-popup__title {
+    font-family: 'Museo Sans Cyrl 900';
+    font-size: 35px;
+    color: #000;
+}
+
+.form-popup__text {
+    font-family: 'Museo Sans Cyrl 500';
+    font-size: 14px;
+    color: #000;
+    margin: 14px 0 24px;
+}
+
+.form-popup {
+    background: #fff;
+    text-align: center;
+    width: 560px;
+    padding: 50px 0 45px;
+}
+
+.form-popup__input {
+    font-family: 'Museo Sans Cyrl 500';
+    display: block;
+    font-size: 15px;
+    color: #808080;
+    border: none;
+    margin: 0 auto;
+    border: 1px solid #e4e4e4;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    width: 350px;
+    padding: 21px 9px;
+    border-radius: 5px;
+}
+
+.form-popup__submit {
+    font-family: 'Museo Sans Cyrl 900';
+    display: block;
+    width: 350px;
+    background: #00cfc3;
+    color: #fff;
+    font-size: 16px;
+    padding: 21px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 20px auto 14px;
+}
+
+.t-descr {
+    font-family: 'Museo Sans Cyrl 500';
+    font-weight: 300;
+    color: #808080;
+    font-size: 18px;
+}
+
+.t-input-group {
+    margin-bottom: 15px;
+}
+
+/*---------------Modal1 window---------------*/
+
+.modal1 {
+    display: none;
+}
+
+.box-modal {
+    position: relative;
+    padding: 25px 15px 15px 15px;
+    background: #fff;
+    color: #3c3c3c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #000;
+}
+
+.box-modal_close {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal1__text {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.form__error {
+    border: 1px solid red;
+}
+
+.form__error::-webkit-input-placeholder {
+    color: red;
+}
+
+.form__error::-moz-input-placeholder {
+    color: red;
+}
+
+.form__error:-moz-input-placeholder {
+    color: red;
+}
+
+.form__error:-ms-input-placeholder {
+    color: red;
+}
+
+/*Media Requests*/
+/*992-1200*/
+@media screen and (max-width: 1200px) {
+    .small-img {
+        right: 0;
+    }
+
+    .big-img {
+        background: url(../img/main-middle.png) no-repeat;
+        width: 420px;
+        height: 528px;
+        left: 50px;
+    }
+
+    .teacher__parallax-bg2 {
+        left: 6px;
+    }
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+    .big-img {
+        background: url(../img/mini-main.png) no-repeat;
+        width: 420px;
+        height: 528px;
+        left: 280px;
+        top: -54px;
+    }
+
+    .small-img {
+        top: -79px;
+        left: 522px;
+    }
+
+    .header {
+        padding: 20px 0 320px 0;
+    }
+
+    .advantage {
+        justify-content: center;
+    }
+
+    .footer__knowledge {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .footer__questions {
+        margin-right: 15px;
+    }
+
+    .footer__contact {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .teacher__parallax-bg1,
+    .teacher__parallax-bg2 {
+        display: none;
+    }
+
+    .chance__subtitle {
+        font-size: 37px;
+    }
+
+    .form__input {
+        width: 180px;
+        padding: 11px 9px;
+        font-size: 10px;
+    }
+}
+
+
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+    .big-img {
+        left: 191px;
+    }
+
+    .small-img {
+        left: 440px;
+    }
+
+    .main__title {
+        width: 560px;
+    }
+
+    .teachers__item {
+        flex-direction: column;
+    }
+
+    .teachers__ico {
+        margin-bottom: 25px;
+    }
+
+    .chance__subtitle {
+        font-size: 30px;
+        width: 506px;
+    }
+
+    .form__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__input {
+        margin-bottom: 15px;
+        width: 262px;
+        padding: 20px 23px 18px;
+        font-size: 15px;
+        margin-right: 0;
+    }
+
+    .form__btn {
+        font-size: 15px;
+        width: 262px;
+        padding: 19px 11px;
+    }
+
+    .form-popup {
+        width: 400px;
+    }
+}
+
+/* 400-576px */
+@media screen and (max-width: 576px) {
+    .main__title {
+        width: 390px;
+    }
+
+    .main__subtitle {
+        width: 131px;
+    }
+
+    .big-img {
+        left: 63px;
+        top: -24px;
+    }
+
+    .small-img {
+        left: 301px;
+        top: -58px;
+    }
+
+    .whom__title {
+        font-size: 35px;
+    }
+
+    .whom__title-small {
+        font-size: 24px;
+    }
+
+    .teachers__title {
+        font-size: 33px;
+        margin-bottom: 67px;
+    }
+
+    .teachers__text {
+        width: 100%;
+    }
+
+    .teachers__text {
+        width: 100%;
+    }
+
+    .block {
+        padding-left: 55px;
+        margin-left: 15px;
+    }
+
+    .block__cross {
+        background: url(../img/cross2.png) no-repeat;
+        margin-top: -2px;
+        left: 14px;
+    }
+
+    .chance__subtitle {
+        width: 100%;
+    }
+
+    .footer__knowledge {
+        font-size: 15px;
+        width: 354px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+}
+
+/* 320-400px */
+@media screen and (max-width: 400px) {
+    .main__title {
+        width: 100%;
+    }
+
+    .big-img {
+        background: url(../img/sm-main.png) no-repeat;
+        width: 270px;
+        height: 332px;
+        left: 29px;
+        top: 16px;
+    }
+
+    .small-img {
+        left: 229px;
+        top: -16px;
+    }
+
+    .whom__title {
+        font-size: 29px;
+    }
+
+    .advantage__text {
+        font-size: 15px;
+    }
+
+    .course__title {
+        font-size: 35px;
+    }
+
+    .footer__questions {
+        width: 100%;
+    }
+
+    .footer__contact {
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .footer__knowledge {
+        width: 100%;
+    }
+
+    .form-popup__title {
+        font-size: 23px;
+    }
+
+    .form-popup__text {
+        font-size: 12px;
+    }
+
+    .form-popup {
+        width: 98%;
+    }
+
+    .form-popup__input {
+        width: 209px;
+        padding: 12px 9px;
+    }
+
+    .form-popup__submit {
+        width: 209px;
+    }
+
+    .t-descr {
+        font-size: 14px;
+        width: 153px;
+    }
+
+    .box-modal {
+        width: 270px;
+        ;
+	}
+	.block__list li {
+		width: 90%;
+	}
+
+}
