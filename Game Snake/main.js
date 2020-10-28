@@ -128,7 +128,7 @@ function move() {
 		}, 200);
 
 		clearInterval(interval);
-		snakeBody[0].style.background = 'url(sad.jpg) center no-repeat';
+		snakeBody[0].style.background = 'url(OQOG6378.JPG) center no-repeat';
 		snakeBody[0].style.backgroundSize = 'cover';
 	}
 
