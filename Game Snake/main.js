@@ -128,7 +128,7 @@ function move() {
 		}, 200);
 
 		clearInterval(interval);
-		snakeBody[0].style.background = 'url(me.jpg) center no-repeat';
+		snakeBody[0].style.background = 'url(me2.jpg) center no-repeat';
 		snakeBody[0].style.backgroundSize = 'cover';
 	}
 
