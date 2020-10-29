@@ -36,4 +36,5 @@ body {
 .princess {
 	background: url(you.jpg);
 	background-size: cover;
+	border-radius: 50%;
 }
