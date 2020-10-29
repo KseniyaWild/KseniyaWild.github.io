@@ -3,7 +3,9 @@
 }
 
 body {
-	margin: 100px;
+	background: url(bg.jpg) center center / cover;
+	background-repeat: no-repeat;
+	margin-top: 50px;
 }
 
 .field {
@@ -28,13 +30,13 @@ body {
 }
 
 .head {
-	background: url(me3.jpg);
+	background: url(me4.jpg);
 	background-size: cover;
-	border-radius: 10%;
+	border-radius: 50%;
 }
 
 .princess {
 	background: url(you.jpg);
 	background-size: cover;
-	border-radius: 10%;
+	border-radius: 50%;
 }
