@@ -28,12 +28,12 @@ body {
 }
 
 .head {
-	background: url(cat.png);
+	background: url(me3.jpg);
 	background-size: cover;
 	border-radius: 10%;
 }
 
 .princess {
-	background: url(princess.png);
+	background: url(you.jpg);
 	background-size: cover;
 }
